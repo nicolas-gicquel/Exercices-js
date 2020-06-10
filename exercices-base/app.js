@@ -128,10 +128,16 @@ console.log(essais);
 var dateToday = new Date();
 
 var annee = dateToday.getFullYear();
-var mois = dateToday.getMonth();
+var mois = dateToday.getMonth() + 1;
+if (mois < 10) {
+    mois = "0" + mois;
+};
 var jour = dateToday.getDate();
 var heure = dateToday.getHours();
 var minute = dateToday.getMinutes();
+if (minute < 10) {
+    minute = "0" + dateToday.getMinutes();
+};
 var seconde = dateToday.getSeconds();
 
-console.log("Nous sommes le " + jour + "/0" + mois + "/" + annee + " et il est " + heure + "h" + minute + " et " + seconde + " secondes.Merci Gwendal!");
+console.log("Nous sommes le " + jour + "/" + mois + "/" + annee + " et il est " + heure + "h" + minute + " et " + seconde + " secondes.Merci Gwendal!");
