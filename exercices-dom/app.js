@@ -37,7 +37,8 @@ function modifyImage(img) {
 //Exercice 5
 
 function scrollImage() {
-    console.log('truc');
-    const pano = document.getElementById(imgPano);
+
+    const pano = document.getElementById('imgPano');
+    console.log(pano);
     pano.classList.remove("#imgPano");
 }
