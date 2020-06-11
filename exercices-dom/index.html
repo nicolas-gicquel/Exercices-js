@@ -1,85 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Liste des courses</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">    
-    <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>Exercice DOM JS</title>
+    <link rel="stylesheet" href="css/style.css">
 
+
+    <script type="text/javascript" src="app.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col s12"><img src="logo.png" class="logo"></div>
-            
-            <div class="col s12 m6">
-                <div id="main" class="carte">
-                    <div class="ajoutTache">
-                        <div class="row">
-                            <form id="course-form">
-                                <div class="input-field col s12">
-                                    <p>Ajouter une tâche :</p>
-                                    <input type="text" name="tache" id="tache" value="Que veux-tu acheter ?">
-                                </div>
-                            </form>
-                        </div>
-                        
-                        <input type="submit" value="Ajouter à ma liste" class="btn ">
-                    </div>
-                </div>
-            </div>
-            
-            
-            <div class="col s12 m6">
-                <div id="liste" class="carte">
-                    <div>
-                        <h3 id="course-liste">Je dois acheter :</h3>
-                        <ul class="collection">
-                            <li class="collection-item">
-                                du fromage
-                                <a href="#" class="delete-item secondary-content">
-                                    <ion-icon name="close-circle"></ion-icon>
-                                </a>
-                            </li>
-                            <li class="collection-item">
-                                des tomates
-                                <a href="#" class="delete-item secondary-content">
-                                    <ion-icon name="close-circle"></ion-icon>
-                                </a>
-                            </li>
-                            <li class="collection-item">
-                                une pizza
-                                <a href="#" class="delete-item secondary-content">
-                                    <ion-icon name="close-circle"></ion-icon>
-                                </a>
-                            </li>
-                            <li class="collection-item">
-                                du BN
-                                <a href="#" class="delete-item secondary-content">
-                                    <ion-icon name="close-circle"></ion-icon>
-                                </a>
-                            </li>
-                        </ul>
-                        <a class="supprimer-course btn" href="">Effacer</a>
-                    </div>    
-                </div>
-            </div>
-            
-            
-            
-        </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-    <script src="app.js"></script>
+    <h2>Exercice 1</h2>
 
+    <input type="button" onClick="message()" value="Qu'est ce que tu en penses Phillipe?" />
+
+    <h2>Exercice 2</h2>
+
+    <input type="text" id="exo2" />
+    <input type="button" onClick="afficheMessage()" value="Afficher" />
+
+
+    <h2>Exercice 3</h2>
+
+    <input type="button" onClick="changeAmbiance()" value="On change d'ambiance!" />
+
+    <h2>Exercice 4</h2>
+
+    <img class="img active" src="images/merise.png" />
+    <img class="img" src="images/mysql.png" />
 </body>
 
 </html>
