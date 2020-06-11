@@ -1,7 +1,4 @@
-img .active {
-    display: block;
-}
-
-img {
-    display: none;
+#imgPano {
+    position: fixed;
+    top: 0px;
 }
