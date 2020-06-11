@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 
 
-    <script type="text/javascript" src="app.js"></script>
+
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 
     <h2>Exercice 2</h2>
 
-    <input type="text" id="exo2" />
+    <input type="text" id="exo2" class="exo2" />
     <input type="button" onClick="afficheMessage()" value="Afficher" />
 
 
@@ -28,8 +28,31 @@
 
     <h2>Exercice 4</h2>
 
-    <img class="img active" src="images/merise.png" />
-    <img class="img" src="images/mysql.png" />
+    <img id="imgChange" src="images/merise.png" onmouseover="modifyImage('images/mysql.png')" onmouseout="modifyImage('images/merise.png')" />
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Exercice 5</h2>
+    <img id="imgPano" src="images/pano.jpg" onscroll="scrollImage()" />
+
+    <script type="text/javascript" src="app.js"></script>
+
 </body>
 
 </html>
