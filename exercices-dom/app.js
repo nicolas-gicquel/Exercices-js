@@ -39,6 +39,19 @@ function modifyImage(img) {
 function scrollImage() {
 
     const pano = document.getElementById('imgPano');
-    console.log(pano);
-    pano.classList.remove("#imgPano");
+    pano.classList.remove("imgPano");
+}
+
+//Exercice 6
+function changeP() {
+    const para = document.getElementById('paragraphe');
+    para.classList.add('perfectP');
+    para.classList.remove('rePerfectP');
+}
+
+function reChangeP() {
+    const para = document.getElementById('paragraphe');
+    para.classList.add('rePerfectP');
+    para.classList.remove('perfectP');
+
 }
