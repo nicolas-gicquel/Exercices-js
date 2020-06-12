@@ -1,4 +1,18 @@
-#imgPano {
+.imgPano {
     position: fixed;
     top: 0px;
+}
+
+.perfectP {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: blue;
+}
+
+.rePerfectP {
+    color: rgb(0, 55, 128);
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(38, 255, 0);
 }
