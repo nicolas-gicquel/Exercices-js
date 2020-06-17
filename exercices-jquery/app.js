@@ -51,7 +51,7 @@ $(document).ready(function() {
         $('#b0e7').toggle();
     });
 
-    //Exercice 7 //
+    //Exercice 8 //
 
     $('#exercice_8 input').focusout(function() {
         $('#exercice_8 div').toggle();
@@ -62,4 +62,8 @@ $(document).ready(function() {
 
 
 
+});
+
+$(document).ready(function() {
+    // Ici, le DOM est entièrement défini
 });
