@@ -89,6 +89,9 @@ if ((multiple % 3 == 0) && (multiple % 5 == 0)) {
 
 //Exercice 8
 
+//Voir index.html//
+
+
 //Exercice 9
 
 
