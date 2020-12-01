@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -15,10 +15,15 @@
 
     <script>
         //Exercice 8//
-        truc = 0;
+        var truc = 0;
         //document.getElementById('liste').innerHTML += "<li>" + truc + "</li>";
-        for (let index = 0; index < 10; index++) {
-            document.getElementById('liste').innerHTML += "<li>" + index + "</li>";
+        for (let truc = 0; truc < 20; truc += 2) {
+            if (truc == 10) {
+                document.getElementById('liste').innerHTML += "<li><b>" + truc + "</b></li>";
+            } else {
+                document.getElementById('liste').innerHTML += "<li>" + truc + "</li>";
+            }
+
 
         }
     </script>

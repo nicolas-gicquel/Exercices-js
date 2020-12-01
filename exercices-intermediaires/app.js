@@ -28,9 +28,9 @@ if (a === b && b === c) {
 //Exercice 2//
 
 
-var quantity = 4,
-    unit = 'T',
-    result;
+var quantity = 4;
+var unit = 'T';
+var result;
 
 //  Résolution avec if...else. 
 if (unit === 'K') {
@@ -98,3 +98,25 @@ if (isNaN(puissance)) {
 }
 
 console.log(puissance);
+
+//Exercice 4//
+
+var value = 2;
+
+if (typeof value === 'string') {
+    console.log('La valeur est une chaîne de caractères');
+} else {
+    console.log('La valeur est un nombre');
+}
+
+switch (value) {
+    case 2:
+    case '2':
+        console.log('La valeur est supérieure à 1');
+    case 1:
+    case '1':
+        console.log('La valeur est supérieure à 0');
+        break;
+    default:
+        console.log('La valeur est égale à 0');
+}

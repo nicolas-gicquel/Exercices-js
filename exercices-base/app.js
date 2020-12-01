@@ -2,6 +2,7 @@
 
 let nom = "Martin";
 let anneeNaissance = "2000";
+//Afficher année actuelle//
 let anneeDate = new Date();
 let date = anneeDate.getFullYear();
 let age = date - anneeNaissance;
@@ -73,7 +74,7 @@ switch (choix) {
 
 //Exercice 6
 
-const multiple = getRandomInt(1, 1000);
+let multiple = getRandomInt(1, 1000);
 if ((multiple % 3 == 0) && (multiple % 5 == 0)) {
     console.log(multiple + " est multiple de 3 et 5");
 } else {
@@ -82,10 +83,12 @@ if ((multiple % 3 == 0) && (multiple % 5 == 0)) {
 
 //Exercice 7
 
-// for (let i = 4400; i < 4500; i++) {
-//     console.log(i + "0");
+for (let i = 4400; i < 4500; i++) {
+    console.log(i + "0");
 
-// }
+}
+
+
 
 //Exercice 8
 
@@ -130,11 +133,14 @@ console.log(essais);
 
 var dateToday = new Date();
 
+//Je définis l'année//
 var annee = dateToday.getFullYear();
 var mois = dateToday.getMonth() + 1;
 if (mois < 10) {
     mois = "0" + mois;
 };
+
+
 var jour = dateToday.getDate();
 var heure = dateToday.getHours();
 var minute = dateToday.getMinutes();
@@ -143,4 +149,4 @@ if (minute < 10) {
 };
 var seconde = dateToday.getSeconds();
 
-console.log("Nous sommes le " + jour + "/" + mois + "/" + annee + " et il est " + heure + "h" + minute + " et " + seconde + " secondes.Merci Gwendal!");
+console.log("Nous sommes le " + jour + "/" + mois + "/" + annee + " et il est " + heure + "h" + minute + " et " + seconde + " secondes.");
