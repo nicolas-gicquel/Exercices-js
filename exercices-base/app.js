@@ -3,12 +3,13 @@
 let nom = "Martin";
 let anneeNaissance = "2000";
 //Afficher année actuelle//
-let anneeDate = new Date();
-let date = anneeDate.getFullYear();
+// let anneeDate = new Date();
+// let date = anneeDate.getFullYear();
+let date = 2022;
 let age = date - anneeNaissance;
 
-//console.log("Bonjour Mr " + nom + ", vous avez " + age + " ans!");
-console.log(`Bonjour Mr ${nom}, vous avez ${ age } ans!`);
+console.log("Bonjour Mr " + nom + ", vous avez " + age + " ans!");
+// console.log(`Bonjour Mr ${nom}, vous avez ${ age } ans!`);
 
 //Exercice 2
 
@@ -17,7 +18,7 @@ let note_francais = 12;
 let note_HG = 9;
 let moyenne = (note_maths + note_francais + note_HG) / 3;
 
-//console.log("La moyenne est de " + moyenne + "/20.")
+console.log("La moyenne est de " + moyenne + "/20.")
 
 //Exercice 3
 
@@ -132,7 +133,7 @@ console.log(essais);
 //Exercice 11
 
 var dateToday = new Date();
-
+console.log(dateToday);
 //Je définis l'année//
 var annee = dateToday.getFullYear();
 var mois = dateToday.getMonth() + 1;

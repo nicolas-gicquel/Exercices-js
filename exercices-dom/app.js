@@ -1,12 +1,19 @@
 // Exercice 1
 
-
+//Première méthode//
 function message() {
+    alert("C'est cool hein!?");
+}
+
+//Deuxième méthode//
+let btn1 = document.getElementById('exo1btn');
+btn1.onclick = function() {
     alert("C'est cool hein!?");
 }
 
 // Exercice 2
 
+//Première méthode//
 //Avec la fonction getElementById()
 function afficheMessage() {
     alert(document.getElementById('exo2').value);
@@ -15,6 +22,12 @@ function afficheMessage() {
 //Avec la fonction getElementByClassName()
 function afficheMessage() {
     alert(document.getElementsByClassName('exo2')[0].value);
+}
+
+//Deuxième méthode//
+let btn2 = document.getElementById('exo2btn');
+btn2.onclick = function() {
+    alert(document.getElementById('exo2bis').value);
 }
 
 //Exercice 3
